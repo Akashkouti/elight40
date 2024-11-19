@@ -1,0 +1,24 @@
+p.container.content{
+    color: red;
+}
+.container.content p{
+    color:blue;
+}
+p.fire{
+    color: blueviolet;
+}
+div.container .content{
+    color: green;
+}
+.container .content >p{
+    color:red;
+}
+.container .main p{
+    color: blue;
+}
+.container .main >p{
+      color: rgb(112, 30, 74);
+}
+.container.content +p{
+    color: aqua;
+}
